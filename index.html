@@ -1,0 +1,47 @@
+<html lang="en" ng-app="startApp">
+
+
+<head>
+    <link rel="stylesheet" href="css/angular-material.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+    
+    <body layout="column" ng-controller="Menucontroller" class="main">
+        <md-toolbar layout="row">
+           <button class="btn-menu" ng-click="toggleLeft()"></button> 
+            <h5 class="heading text-center">Challenges</h5>      
+        </md-toolbar>
+        
+        <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left">
+          <md-content>
+            <span class="logo"><img class="logo-img" src="images/icon-image.png"><a href="#"><strong>Username</strong></a></span>
+            <ul class="docs-menu">
+                <li class="activity"><a href="activity.html"  ><span class="activity-img images"></span><span>Activity</span</a></li>
+                <li class="Challenegs"><a href="#"><span class="challenegs-img images"></span><span>Challenges</span></a></li>
+                <li class="challenge invitation"><a href="#"><span class="challenge-invitation images"></span>
+                    <span>Challenge Invitation</span></a>
+                </li>
+                <li class="Friends"><a href="#"><span class="friends-img images"></span><span>Friends</span></a></li>
+                <li class="Settings"><a href="#"><span class="settings-img images"></span><span>Settings</span></a></li>
+                <li class="Logout"><a href="#"><span class="logout-img images"></span><span>Logout</span></a></li>
+        
+            </ul>
+            </md-content>
+        </md-sidenav>
+    
+    
+    
+    
+     <!-- Angular Material Dependencies -->
+        
+    <script src="js/angular.js"></script>
+    <script src="js/angular-material.js"></script>
+    <script src="js/angular-animate.min.js"></script>
+<!--    <script src="js/angular-animate.min.js.map"></script>-->
+    <script src="js/angular-aria.min.js"></script>
+<!--    <script src="js/angular-aria.min.js.map"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/0.7.1/angular-material.min.js"></script>
+     <script src="js/app.js"></script>
+    </body>
+</html>

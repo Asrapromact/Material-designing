@@ -1,0 +1,206 @@
+body{
+    font-family: sans-serif;
+}
+md-toolbar
+{
+    background-color:rgb(0,171,255);
+    color: #fff;
+    height: 42px;
+    padding: 10px 20px;
+    min-height: 42px !important;
+
+}
+
+h5.heading{
+    position: absolute;
+    right: 104px;
+    margin: 0px !important;
+    
+}
+
+.btn-menu{
+    background: url('../images/menu.png');
+    background-size: 24px 24px;
+    border: 0;
+    top: 8px;
+    z-index: 2;
+    height: 23px;
+    width: 20px;
+}
+
+md-toolbar.md-default-theme{
+    background-color:rgb(0,171,255)!important
+}
+.logo{
+    border-bottom: 1px solid #e0e0e0;
+    display: block;
+    height: 80px;
+    margin: auto;
+    padding: 15px 20px;
+    position: relative;
+}
+
+span a{
+    color: #000;
+    text-decoration: none;
+}
+
+ul.docs-menu{
+    list-style: none;
+    padding:0px 10px;
+    margin: 0px;
+}
+
+.docs-menu li{
+     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 15px 10px;
+}
+.docs-menu li a{
+    display: inline-block;
+    text-decoration: none !important;
+}
+ul.docs-menu li a span{
+    text-decoration: none;
+     color: #000;
+}
+
+.docs-menu li a .images{
+    background:url(../images/menu-finalll-image.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+.activity-img{
+    background-position: 0 0 !important;
+    height: 43px;
+    width: 41px;
+}
+
+.challenegs-img {
+    background-position: 0 -49px !important;
+    height: 43px;
+    width: 41px;
+}
+
+.challenge-invitation {
+   
+    background-position: 0 -99px !important;
+    height: 43px;
+    width: 41px;
+}
+
+.friends-img{
+   
+    background-position: 0 -148px !important; 
+    height: 43px;
+    width: 41px;
+}
+.settings-img{
+ 
+    background-position: 0 -200px !important;
+    height: 43px;
+    width: 41px;
+}
+
+.logout-img{
+    background-position: 0 -253px !important;
+    height: 43px;
+    width: 41px;
+    
+}
+.logo-img{
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+.images {
+    margin: 0 10px;
+}
+
+.active-img{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+div.dates span,div.dates h2{
+    color: rgb(3,183,244);
+}
+.dates span{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin:10px;
+}
+.dates h2{
+    margin: 10px !important;
+}
+.dates h3{
+     font-size: 19px;
+    font-weight: 300
+}
+.md-tall{
+    height: 59px !important;
+}
+
+.description{
+    color: rgb(172,172,172);
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bottom-footer{
+    background: rgb(0,171,255);
+    color: #fff;
+    min-height: 64px;
+    
+}
+
+.fa{
+    margin: 15px auto;
+    font-size: 45px!important;
+}
+
+md-toolbar.md-medium-tall {
+    min-height: 73px !important;
+}
+.md-medium-tall .btn-menu{
+    margin: 8px 5px;
+}
+
+span.joined{
+    border:2px solid #fff;
+    border-radius: 5px;
+    padding: 7px 6px 11px;
+    font-size: 26px;
+}
+
+.head-challenges {
+    margin: 10px;
+    font-size: 26px;
+}
+
+.description p{
+    color: rgb(113,113,113);
+    font-size: 23px;
+    margin: 8px auto;
+}
+
+.section-dates{
+    margin:20px 20px 0px;
+}
+
+.description{
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+@media only screen and(max-width:480px){
+    md-toolbar{
+     padding: 5px !important;
+    }
+}
